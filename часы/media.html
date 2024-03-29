@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <style> 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+  div::after { 
+content: "big screen";
+height: 300px;
+width: 300px;
+background: black;
+color: white;
+display: block;
+    }
+    @media (orientation: portrait){
+        /* При вертикальной ориентации фоновым цветом сайта будет черный*/
+    body {
+        background: #000;
+    }
+    }
+
+
+    </style>
+</head>
+<body> 
+    <div></div>
+   
+</body>
+</html>
+
+
+@media screen and (orientation: portrait) {
+    css код, который выполняет условие 
+}
+
+orientation 
+    landscape
+    portrait 
+
+носители:
+    all - подходит для всех устройств
+    print - предварительная печать
+    screen - для цветных экранов
+    speech - для синтезаторов речи
+
+    viewport
+    ширина: width
+    min-wight
+    max-wight 
+
+    высота: height 
+    min-height 
+    max-height 
+
+    breakpoint - контрольные точки
+
+

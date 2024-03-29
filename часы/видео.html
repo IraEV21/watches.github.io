@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css"> 
+		*{ margin:0;
+		padding:0;
+		box-sizing:0; }
+		input:focus {
+			outline: none;
+			border-color: blueviolet;
+		}
+		textarea { resize: vertical; } 	
+	</style>
+</head>
+<body>
+	<video src="video.mp4" controls></video>
+	<video src="video.mp4" autoplay loop muted></video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o0xwEwFxQq8?si=7E93ZoIrP3A32sbG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<form action="#">
+	<label>Почта</label>
+	<input type="email" placehOlder="Введите почту" autocomplete="on" name="email" />
+<label>Пароль</label>
+<input type="password" />
+	<label> 
+		<input type="checkbox" >Я согласен с условиями
+	</label>
+<textarea placeholder="Комментарий"></textarea>
+
+	<select>
+		<option> XS</option>
+		<option> S</option>
+		<option> M</option>
+		<option> L</option>
+	</select>
+	
+	<details>
+		<summary> Детали</summary>
+		Детали деталей при открытии
+	</details>
+</form>
+</body>
+</html>
+
+
+resize: none| both| horizontal| vertical
